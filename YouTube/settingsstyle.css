@@ -1,0 +1,137 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .logo img {
+    height: 30px;
+  }
+  
+  header .search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  header .search-bar button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  header .user-menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  header .user-menu img {
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  header .user-menu .dropdown {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  header .user-menu .dropdown a {
+    display: block;
+    color: #333;
+    padding: 5px 0;
+    text-decoration: none;
+  }
+  
+  header .user-menu .dropdown a:hover {
+    background-color: #f5f5f5;
+  }
+  
+  header .user-menu:hover .dropdown {
+    display: block;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  input[type="password"],
+  select {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  select {
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='5' viewBox='0 0 10 5'%3E%3Cpath fill='%23333333' d='M5 5l5-5H0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 25px;
+  }
+  
+
+  
